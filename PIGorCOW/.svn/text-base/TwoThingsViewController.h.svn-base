@@ -1,0 +1,19 @@
+//
+//  TwoThingsViewController.h
+//  iDecider
+//
+//  Created by Juliane Reschke on 06.06.12.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "CameraViewController.h"
+@class CameraViewController;
+
+@interface TwoThingsViewController : UIViewController <CameraViewControllerDelegate>
+
+@property (strong, nonatomic) IBOutlet UIButton *takePicButten;
+
+- (IBAction)pressedTakePic:(id)sender;
+
+@end

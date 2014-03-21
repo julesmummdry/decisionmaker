@@ -1,0 +1,86 @@
+//
+//  CameraViewController.m
+//  iDecider
+//
+//  Created by Juliane Reschke on 06.06.12.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//
+
+#import "CameraViewController.h"
+
+@interface CameraViewController ()
+
+@end
+
+@implementation CameraViewController
+
+@synthesize delegate = _delegate;
+
+
+
+-(id)init{
+    
+    self = [super init];
+    
+    if (self) {
+        
+        UIImagePickerController *cameraUI = [[UIImagePickerController alloc] init];
+        cameraUI.sourceType = UIImagePickerControllerSourceTypeCamera;
+        
+        // Displays a control that allows the user to choose picture or
+        // movie capture, if both are available:
+        cameraUI.mediaTypes =
+        [UIImagePickerController availableMediaTypesForSourceType:
+         UIImagePickerControllerSourceTypeCamera];
+        
+        // Hides the controls for moving & scaling pictures, or for
+        // trimming movies. To instead show the controls, use YES.
+        cameraUI.allowsEditing = NO;
+        
+        cameraUI.delegate = self;
+        
+        //[self presentModalViewController: cameraUI animated: YES];
+        NSLog(@"Camera View is presented");
+
+    }
+
+    return self;
+}
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+# pragma mark - UIImagePickerViewController Delegate
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo{
+
+    
+}
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info{
+
+    
+}
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker{
+
+    [_delegate dismissModalViewController];
+}
+
+
+
+@end

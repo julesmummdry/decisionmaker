@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1416E715ECFC4600CCBF73 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1416E615ECFC4600CCBF73 /* Icon@2x.png */; };
+		0E14170915ED0F4200CCBF73 /* backgroundpic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E14170715ED0F4200CCBF73 /* backgroundpic@2x.png */; };
+		0E14171115ED196400CCBF73 /* decideframe_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E14170F15ED196400CCBF73 /* decideframe_left.png */; };
+		0E14171215ED196400CCBF73 /* decideframe_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E14171015ED196400CCBF73 /* decideframe_right.png */; };
+		0E14171415ED1D5900CCBF73 /* decideframe3right.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E14171315ED1D5900CCBF73 /* decideframe3right.png */; };
+		0E14171715ED1E8A00CCBF73 /* decideframe3left.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E14171515ED1E8A00CCBF73 /* decideframe3left.png */; };
+		0E14171815ED1E8A00CCBF73 /* decideframe3middle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E14171615ED1E8A00CCBF73 /* decideframe3middle.png */; };
+		0E14171A15ED1F5A00CCBF73 /* decidebutton04.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E14171915ED1F5900CCBF73 /* decidebutton04.png */; };
+		0E14171D15ED206200CCBF73 /* button01shine.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E14171B15ED206200CCBF73 /* button01shine.png */; };
+		0E14171E15ED206200CCBF73 /* button02shine.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E14171C15ED206200CCBF73 /* button02shine.png */; };
+		0E714455157FB2F7006661B3 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E714453157FB2F7006661B3 /* StartViewController.m */; };
+		0E714456157FB2F7006661B3 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E714454157FB2F7006661B3 /* StartViewController.xib */; };
+		0E714476157FB77C006661B3 /* TwoThingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E714474157FB77C006661B3 /* TwoThingsViewController.m */; };
+		0E714477157FB77C006661B3 /* TwoThingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E714475157FB77C006661B3 /* TwoThingsViewController.xib */; };
+		0E71447C157FB793006661B3 /* ThreeThingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E71447A157FB793006661B3 /* ThreeThingsViewController.m */; };
+		0E71447D157FB793006661B3 /* ThreeThingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E71447B157FB793006661B3 /* ThreeThingsViewController.xib */; };
+		0E76C052157FAE5400C0E4C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E76C051157FAE5400C0E4C7 /* UIKit.framework */; };
+		0E76C054157FAE5400C0E4C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E76C053157FAE5400C0E4C7 /* Foundation.framework */; };
+		0E76C056157FAE5400C0E4C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E76C055157FAE5400C0E4C7 /* CoreGraphics.framework */; };
+		0E76C05C157FAE5400C0E4C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E76C05A157FAE5400C0E4C7 /* InfoPlist.strings */; };
+		0E76C05E157FAE5400C0E4C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E76C05D157FAE5400C0E4C7 /* main.m */; };
+		0E76C062157FAE5400C0E4C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E76C061157FAE5400C0E4C7 /* AppDelegate.m */; };
+		0E96E05B158F2A9B00259E5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E96E05A158F2A9B00259E5D /* QuartzCore.framework */; };
+		0EBF4B4D1600F230002F5159 /* menubackgroundpic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EBF4B4C1600F230002F5159 /* menubackgroundpic@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E1416E615ECFC4600CCBF73 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		0E14170715ED0F4200CCBF73 /* backgroundpic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backgroundpic@2x.png"; path = "../backgroundpic@2x.png"; sourceTree = "<group>"; };
+		0E14170F15ED196400CCBF73 /* decideframe_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decideframe_left.png; sourceTree = "<group>"; };
+		0E14171015ED196400CCBF73 /* decideframe_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decideframe_right.png; sourceTree = "<group>"; };
+		0E14171315ED1D5900CCBF73 /* decideframe3right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decideframe3right.png; sourceTree = "<group>"; };
+		0E14171515ED1E8A00CCBF73 /* decideframe3left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decideframe3left.png; sourceTree = "<group>"; };
+		0E14171615ED1E8A00CCBF73 /* decideframe3middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decideframe3middle.png; sourceTree = "<group>"; };
+		0E14171915ED1F5900CCBF73 /* decidebutton04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decidebutton04.png; sourceTree = "<group>"; };
+		0E14171B15ED206200CCBF73 /* button01shine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button01shine.png; sourceTree = "<group>"; };
+		0E14171C15ED206200CCBF73 /* button02shine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button02shine.png; sourceTree = "<group>"; };
+		0E714452157FB2F7006661B3 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		0E714453157FB2F7006661B3 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		0E714454157FB2F7006661B3 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		0E714473157FB77C006661B3 /* TwoThingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwoThingsViewController.h; path = ../TwoThingsViewController.h; sourceTree = "<group>"; };
+		0E714474157FB77C006661B3 /* TwoThingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwoThingsViewController.m; path = ../TwoThingsViewController.m; sourceTree = "<group>"; };
+		0E714475157FB77C006661B3 /* TwoThingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TwoThingsViewController.xib; path = ../TwoThingsViewController.xib; sourceTree = "<group>"; };
+		0E714479157FB793006661B3 /* ThreeThingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThreeThingsViewController.h; path = ../ThreeThingsViewController.h; sourceTree = "<group>"; };
+		0E71447A157FB793006661B3 /* ThreeThingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThreeThingsViewController.m; path = ../ThreeThingsViewController.m; sourceTree = "<group>"; };
+		0E71447B157FB793006661B3 /* ThreeThingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThreeThingsViewController.xib; path = ../ThreeThingsViewController.xib; sourceTree = "<group>"; };
+		0E76C04D157FAE5400C0E4C7 /* PIG or COW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PIG or COW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E76C051157FAE5400C0E4C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E76C053157FAE5400C0E4C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E76C055157FAE5400C0E4C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E76C059157FAE5400C0E4C7 /* PIG or COW-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PIG or COW-Info.plist"; sourceTree = "<group>"; };
+		0E76C05B157FAE5400C0E4C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E76C05D157FAE5400C0E4C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E76C05F157FAE5400C0E4C7 /* PIG or COW-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PIG or COW-Prefix.pch"; sourceTree = "<group>"; };
+		0E76C060157FAE5400C0E4C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E76C061157FAE5400C0E4C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E96E05A158F2A9B00259E5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0EBF4B4C1600F230002F5159 /* menubackgroundpic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menubackgroundpic@2x.png"; path = "../menubackgroundpic@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E76C04A157FAE5400C0E4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E96E05B158F2A9B00259E5D /* QuartzCore.framework in Frameworks */,
+				0E76C052157FAE5400C0E4C7 /* UIKit.framework in Frameworks */,
+				0E76C054157FAE5400C0E4C7 /* Foundation.framework in Frameworks */,
+				0E76C056157FAE5400C0E4C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E76C042157FAE5400C0E4C7 = {
+			isa = PBXGroup;
+			children = (
+				0E96E05A158F2A9B00259E5D /* QuartzCore.framework */,
+				0E76C057157FAE5400C0E4C7 /* iDecider */,
+				0E76C050157FAE5400C0E4C7 /* Frameworks */,
+				0E76C04E157FAE5400C0E4C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E76C04E157FAE5400C0E4C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E76C04D157FAE5400C0E4C7 /* PIG or COW.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E76C050157FAE5400C0E4C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E76C051157FAE5400C0E4C7 /* UIKit.framework */,
+				0E76C053157FAE5400C0E4C7 /* Foundation.framework */,
+				0E76C055157FAE5400C0E4C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E76C057157FAE5400C0E4C7 /* iDecider */ = {
+			isa = PBXGroup;
+			children = (
+				0E76C060157FAE5400C0E4C7 /* AppDelegate.h */,
+				0E76C061157FAE5400C0E4C7 /* AppDelegate.m */,
+				0E714452157FB2F7006661B3 /* StartViewController.h */,
+				0E714453157FB2F7006661B3 /* StartViewController.m */,
+				0E714454157FB2F7006661B3 /* StartViewController.xib */,
+				0E714473157FB77C006661B3 /* TwoThingsViewController.h */,
+				0E714474157FB77C006661B3 /* TwoThingsViewController.m */,
+				0E714475157FB77C006661B3 /* TwoThingsViewController.xib */,
+				0E714479157FB793006661B3 /* ThreeThingsViewController.h */,
+				0E71447A157FB793006661B3 /* ThreeThingsViewController.m */,
+				0E71447B157FB793006661B3 /* ThreeThingsViewController.xib */,
+				0E76C058157FAE5400C0E4C7 /* Supporting Files */,
+			);
+			path = iDecider;
+			sourceTree = "<group>";
+		};
+		0E76C058157FAE5400C0E4C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E1416E615ECFC4600CCBF73 /* Icon@2x.png */,
+				0E14171B15ED206200CCBF73 /* button01shine.png */,
+				0E14171C15ED206200CCBF73 /* button02shine.png */,
+				0E14171915ED1F5900CCBF73 /* decidebutton04.png */,
+				0E14170715ED0F4200CCBF73 /* backgroundpic@2x.png */,
+				0EBF4B4C1600F230002F5159 /* menubackgroundpic@2x.png */,
+				0E14170F15ED196400CCBF73 /* decideframe_left.png */,
+				0E14171015ED196400CCBF73 /* decideframe_right.png */,
+				0E14171515ED1E8A00CCBF73 /* decideframe3left.png */,
+				0E14171615ED1E8A00CCBF73 /* decideframe3middle.png */,
+				0E14171315ED1D5900CCBF73 /* decideframe3right.png */,
+				0E76C059157FAE5400C0E4C7 /* PIG or COW-Info.plist */,
+				0E76C05A157FAE5400C0E4C7 /* InfoPlist.strings */,
+				0E76C05D157FAE5400C0E4C7 /* main.m */,
+				0E76C05F157FAE5400C0E4C7 /* PIG or COW-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E76C04C157FAE5400C0E4C7 /* PIG or COW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E76C06B157FAE5400C0E4C7 /* Build configuration list for PBXNativeTarget "PIG or COW" */;
+			buildPhases = (
+				0E76C049157FAE5400C0E4C7 /* Sources */,
+				0E76C04A157FAE5400C0E4C7 /* Frameworks */,
+				0E76C04B157FAE5400C0E4C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PIG or COW";
+			productName = iDecider;
+			productReference = 0E76C04D157FAE5400C0E4C7 /* PIG or COW.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E76C044157FAE5400C0E4C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0E76C047157FAE5400C0E4C7 /* Build configuration list for PBXProject "PIG or COW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E76C042157FAE5400C0E4C7;
+			productRefGroup = 0E76C04E157FAE5400C0E4C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E76C04C157FAE5400C0E4C7 /* PIG or COW */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E76C04B157FAE5400C0E4C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E76C05C157FAE5400C0E4C7 /* InfoPlist.strings in Resources */,
+				0E714456157FB2F7006661B3 /* StartViewController.xib in Resources */,
+				0E714477157FB77C006661B3 /* TwoThingsViewController.xib in Resources */,
+				0E71447D157FB793006661B3 /* ThreeThingsViewController.xib in Resources */,
+				0E1416E715ECFC4600CCBF73 /* Icon@2x.png in Resources */,
+				0E14170915ED0F4200CCBF73 /* backgroundpic@2x.png in Resources */,
+				0E14171115ED196400CCBF73 /* decideframe_left.png in Resources */,
+				0E14171215ED196400CCBF73 /* decideframe_right.png in Resources */,
+				0E14171415ED1D5900CCBF73 /* decideframe3right.png in Resources */,
+				0E14171715ED1E8A00CCBF73 /* decideframe3left.png in Resources */,
+				0E14171815ED1E8A00CCBF73 /* decideframe3middle.png in Resources */,
+				0E14171A15ED1F5A00CCBF73 /* decidebutton04.png in Resources */,
+				0E14171D15ED206200CCBF73 /* button01shine.png in Resources */,
+				0E14171E15ED206200CCBF73 /* button02shine.png in Resources */,
+				0EBF4B4D1600F230002F5159 /* menubackgroundpic@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E76C049157FAE5400C0E4C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E76C05E157FAE5400C0E4C7 /* main.m in Sources */,
+				0E76C062157FAE5400C0E4C7 /* AppDelegate.m in Sources */,
+				0E714455157FB2F7006661B3 /* StartViewController.m in Sources */,
+				0E714476157FB77C006661B3 /* TwoThingsViewController.m in Sources */,
+				0E71447C157FB793006661B3 /* ThreeThingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E76C05A157FAE5400C0E4C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E76C05B157FAE5400C0E4C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E76C069157FAE5400C0E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E76C06A157FAE5400C0E4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E76C06C157FAE5400C0E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Juliane Reschke (NM3LTK2JZ6)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDecider/PIG or COW-Prefix.pch";
+				INFOPLIST_FILE = "iDecider/PIG or COW-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "PIG or COW";
+				PROVISIONING_PROFILE = "2760319A-CA04-456C-B7E7-A36266BB183F";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E76C06D157FAE5400C0E4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Juliane Reschke (NM3LTK2JZ6)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDecider/PIG or COW-Prefix.pch";
+				INFOPLIST_FILE = "iDecider/PIG or COW-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "PIG or COW";
+				PROVISIONING_PROFILE = "2760319A-CA04-456C-B7E7-A36266BB183F";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E76C047157FAE5400C0E4C7 /* Build configuration list for PBXProject "PIG or COW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E76C069157FAE5400C0E4C7 /* Debug */,
+				0E76C06A157FAE5400C0E4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E76C06B157FAE5400C0E4C7 /* Build configuration list for PBXNativeTarget "PIG or COW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E76C06C157FAE5400C0E4C7 /* Debug */,
+				0E76C06D157FAE5400C0E4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E76C044157FAE5400C0E4C7 /* Project object */;
+}

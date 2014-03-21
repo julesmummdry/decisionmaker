@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E714455157FB2F7006661B3 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E714453157FB2F7006661B3 /* StartViewController.m */; };
+		0E714456157FB2F7006661B3 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E714454157FB2F7006661B3 /* StartViewController.xib */; };
+		0E71446D157FB6B1006661B3 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E71446B157FB6B1006661B3 /* CameraViewController.m */; };
+		0E71446E157FB6B1006661B3 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E71446C157FB6B1006661B3 /* CameraViewController.xib */; };
+		0E714476157FB77C006661B3 /* TwoThingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E714474157FB77C006661B3 /* TwoThingsViewController.m */; };
+		0E714477157FB77C006661B3 /* TwoThingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E714475157FB77C006661B3 /* TwoThingsViewController.xib */; };
+		0E71447C157FB793006661B3 /* ThreeThingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E71447A157FB793006661B3 /* ThreeThingsViewController.m */; };
+		0E71447D157FB793006661B3 /* ThreeThingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E71447B157FB793006661B3 /* ThreeThingsViewController.xib */; };
+		0E76C052157FAE5400C0E4C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E76C051157FAE5400C0E4C7 /* UIKit.framework */; };
+		0E76C054157FAE5400C0E4C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E76C053157FAE5400C0E4C7 /* Foundation.framework */; };
+		0E76C056157FAE5400C0E4C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E76C055157FAE5400C0E4C7 /* CoreGraphics.framework */; };
+		0E76C05C157FAE5400C0E4C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E76C05A157FAE5400C0E4C7 /* InfoPlist.strings */; };
+		0E76C05E157FAE5400C0E4C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E76C05D157FAE5400C0E4C7 /* main.m */; };
+		0E76C062157FAE5400C0E4C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E76C061157FAE5400C0E4C7 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E714452157FB2F7006661B3 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		0E714453157FB2F7006661B3 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		0E714454157FB2F7006661B3 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		0E71446A157FB6B1006661B3 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		0E71446B157FB6B1006661B3 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		0E71446C157FB6B1006661B3 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		0E714473157FB77C006661B3 /* TwoThingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwoThingsViewController.h; path = ../TwoThingsViewController.h; sourceTree = "<group>"; };
+		0E714474157FB77C006661B3 /* TwoThingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwoThingsViewController.m; path = ../TwoThingsViewController.m; sourceTree = "<group>"; };
+		0E714475157FB77C006661B3 /* TwoThingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TwoThingsViewController.xib; path = ../TwoThingsViewController.xib; sourceTree = "<group>"; };
+		0E714479157FB793006661B3 /* ThreeThingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThreeThingsViewController.h; path = ../ThreeThingsViewController.h; sourceTree = "<group>"; };
+		0E71447A157FB793006661B3 /* ThreeThingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThreeThingsViewController.m; path = ../ThreeThingsViewController.m; sourceTree = "<group>"; };
+		0E71447B157FB793006661B3 /* ThreeThingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThreeThingsViewController.xib; path = ../ThreeThingsViewController.xib; sourceTree = "<group>"; };
+		0E76C04D157FAE5400C0E4C7 /* iDecider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDecider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E76C051157FAE5400C0E4C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E76C053157FAE5400C0E4C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E76C055157FAE5400C0E4C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E76C059157FAE5400C0E4C7 /* iDecider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDecider-Info.plist"; sourceTree = "<group>"; };
+		0E76C05B157FAE5400C0E4C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E76C05D157FAE5400C0E4C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E76C05F157FAE5400C0E4C7 /* iDecider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iDecider-Prefix.pch"; sourceTree = "<group>"; };
+		0E76C060157FAE5400C0E4C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E76C061157FAE5400C0E4C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E76C04A157FAE5400C0E4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E76C052157FAE5400C0E4C7 /* UIKit.framework in Frameworks */,
+				0E76C054157FAE5400C0E4C7 /* Foundation.framework in Frameworks */,
+				0E76C056157FAE5400C0E4C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E76C042157FAE5400C0E4C7 = {
+			isa = PBXGroup;
+			children = (
+				0E76C057157FAE5400C0E4C7 /* iDecider */,
+				0E76C050157FAE5400C0E4C7 /* Frameworks */,
+				0E76C04E157FAE5400C0E4C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E76C04E157FAE5400C0E4C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E76C04D157FAE5400C0E4C7 /* iDecider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E76C050157FAE5400C0E4C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E76C051157FAE5400C0E4C7 /* UIKit.framework */,
+				0E76C053157FAE5400C0E4C7 /* Foundation.framework */,
+				0E76C055157FAE5400C0E4C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E76C057157FAE5400C0E4C7 /* iDecider */ = {
+			isa = PBXGroup;
+			children = (
+				0E76C060157FAE5400C0E4C7 /* AppDelegate.h */,
+				0E76C061157FAE5400C0E4C7 /* AppDelegate.m */,
+				0E714452157FB2F7006661B3 /* StartViewController.h */,
+				0E714453157FB2F7006661B3 /* StartViewController.m */,
+				0E714454157FB2F7006661B3 /* StartViewController.xib */,
+				0E714473157FB77C006661B3 /* TwoThingsViewController.h */,
+				0E714474157FB77C006661B3 /* TwoThingsViewController.m */,
+				0E714475157FB77C006661B3 /* TwoThingsViewController.xib */,
+				0E714479157FB793006661B3 /* ThreeThingsViewController.h */,
+				0E71447A157FB793006661B3 /* ThreeThingsViewController.m */,
+				0E71447B157FB793006661B3 /* ThreeThingsViewController.xib */,
+				0E71446A157FB6B1006661B3 /* CameraViewController.h */,
+				0E71446B157FB6B1006661B3 /* CameraViewController.m */,
+				0E71446C157FB6B1006661B3 /* CameraViewController.xib */,
+				0E76C058157FAE5400C0E4C7 /* Supporting Files */,
+			);
+			path = iDecider;
+			sourceTree = "<group>";
+		};
+		0E76C058157FAE5400C0E4C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E76C059157FAE5400C0E4C7 /* iDecider-Info.plist */,
+				0E76C05A157FAE5400C0E4C7 /* InfoPlist.strings */,
+				0E76C05D157FAE5400C0E4C7 /* main.m */,
+				0E76C05F157FAE5400C0E4C7 /* iDecider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E76C04C157FAE5400C0E4C7 /* iDecider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E76C06B157FAE5400C0E4C7 /* Build configuration list for PBXNativeTarget "iDecider" */;
+			buildPhases = (
+				0E76C049157FAE5400C0E4C7 /* Sources */,
+				0E76C04A157FAE5400C0E4C7 /* Frameworks */,
+				0E76C04B157FAE5400C0E4C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDecider;
+			productName = iDecider;
+			productReference = 0E76C04D157FAE5400C0E4C7 /* iDecider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E76C044157FAE5400C0E4C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0E76C047157FAE5400C0E4C7 /* Build configuration list for PBXProject "iDecider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E76C042157FAE5400C0E4C7;
+			productRefGroup = 0E76C04E157FAE5400C0E4C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E76C04C157FAE5400C0E4C7 /* iDecider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E76C04B157FAE5400C0E4C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E76C05C157FAE5400C0E4C7 /* InfoPlist.strings in Resources */,
+				0E714456157FB2F7006661B3 /* StartViewController.xib in Resources */,
+				0E71446E157FB6B1006661B3 /* CameraViewController.xib in Resources */,
+				0E714477157FB77C006661B3 /* TwoThingsViewController.xib in Resources */,
+				0E71447D157FB793006661B3 /* ThreeThingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E76C049157FAE5400C0E4C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E76C05E157FAE5400C0E4C7 /* main.m in Sources */,
+				0E76C062157FAE5400C0E4C7 /* AppDelegate.m in Sources */,
+				0E714455157FB2F7006661B3 /* StartViewController.m in Sources */,
+				0E71446D157FB6B1006661B3 /* CameraViewController.m in Sources */,
+				0E714476157FB77C006661B3 /* TwoThingsViewController.m in Sources */,
+				0E71447C157FB793006661B3 /* ThreeThingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E76C05A157FAE5400C0E4C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E76C05B157FAE5400C0E4C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E76C069157FAE5400C0E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E76C06A157FAE5400C0E4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E76C06C157FAE5400C0E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDecider/iDecider-Prefix.pch";
+				INFOPLIST_FILE = "iDecider/iDecider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E76C06D157FAE5400C0E4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDecider/iDecider-Prefix.pch";
+				INFOPLIST_FILE = "iDecider/iDecider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E76C047157FAE5400C0E4C7 /* Build configuration list for PBXProject "iDecider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E76C069157FAE5400C0E4C7 /* Debug */,
+				0E76C06A157FAE5400C0E4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E76C06B157FAE5400C0E4C7 /* Build configuration list for PBXNativeTarget "iDecider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E76C06C157FAE5400C0E4C7 /* Debug */,
+				0E76C06D157FAE5400C0E4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E76C044157FAE5400C0E4C7 /* Project object */;
+}
